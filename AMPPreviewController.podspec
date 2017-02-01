@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/alexito4/AMPPreviewController.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/alexito4'
 
-  s.dependency 'AFNetworking', '~> 2.2'
+  s.dependency 'AFNetworking', '~> 3.1.0'
 
   s.platform     = :ios, '7.0'
   # s.ios.deployment_target = '5.0'
